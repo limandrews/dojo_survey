@@ -1,0 +1,33 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dojo Survey</title>
+</head>
+
+<body>
+    <form action="/users" method="POST">
+        Your Name<input type="text" name="usernamebox">
+        <label for="forloco">Choose a location:</label>
+        <select name="locationbox" id="location">
+            <option value="Burbank">Burbank</option>
+            <option value="Los Angeles">Los Angeles</option>
+            <option value="Granada Hills">Granada Hills</option>
+            <option value="Santa Clarita">Santa Clarita</option>
+        </select>
+
+        <label for="forlang">Choose a language:</label>
+        <select name="languagebox" id="languagebox">
+            <option value="JavaScript">JavaScript</option>
+            <option value="Python">Python</option>
+            <option value="Java">Java</option>
+            <option value="Ruby">Ruby</option>
+        </select>
+        <textarea name="commentbox" id="comments" cols="30" rows="10"></textarea>
+        <input type="submit" value="submitter">
+    </form>
+</body>
+
+</html>
